@@ -2,7 +2,12 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image:url('bground2.gif') ;
+  background-image:url('Background1.gif') center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
   background-repeat:repeat;
   /*background-size:contain;*/
   color: #cc3737;
