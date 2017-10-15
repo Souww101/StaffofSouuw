@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-image:url('Background1.gif');
-  background-repeat:repeat;
+  background-repeat:repeat-x;
   /*background-size:contain;*/
   color: #cc3737;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
