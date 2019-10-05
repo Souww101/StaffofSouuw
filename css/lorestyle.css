@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image:url('Background1.gif');
+  background-image:url('../img/Background1.gif');
   background-repeat:repeat;
   /*background-size:contain;*/
   color: #cc3737;
