@@ -54,3 +54,53 @@ img{
 	font-size: 60px;
 
 }
+
+@media screen and (min-width: 760px) {  
+
+	img{
+		display: none;
+	}
+
+	.parallax-group{
+		-webkit-transform-style: unset;
+		transform-style: unset;
+	}
+
+	.title{
+		transform: unset;
+		-webkit-transform: unset;
+		position:unset;
+		top: unset;
+		width: 100%;
+		text-align: center;
+		color: #fff;
+		font-size: 90px;
+		background-image: url(../img/hbcrucify.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 100vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+
+	.title p{
+		margin: 0;
+
+	}
+
+
+	header.front{
+		padding-top: 10px;
+		font-size: 40px;
+		text-align: left;
+	}
+
+	header.front h2 {
+		font-size: 70px;
+		text-align: center;
+	}
+
+
+}
